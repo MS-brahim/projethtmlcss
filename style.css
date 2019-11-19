@@ -1,0 +1,153 @@
+/************************navbar***************/
+* {
+	padding:0px;
+	margin: 0px;
+	
+
+}
+#header {
+	width: 100%;
+    height: 200px;
+    background-image: url(img/bbb.jpg);
+    background-size: cover;
+    background-position: fixed; 
+}
+#navbar {
+	width: 100%;
+	padding: 30px;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+}
+#navbar ul li  {
+	list-style: none;
+	display: inline-block;
+	font-size: 14px;
+	
+}
+#navbar ul li a {
+	color: white;
+	font-family: sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+    text-shadow: 3px 3px 6px;
+
+}
+#navbar ul li a:hover {
+	background-color: red;
+	transition: 0.5s;
+
+}
+#para{
+
+    text-align: center;
+    background-image: url(img/b4.jpg);
+    background-size:  cover;
+    color: white;
+
+}
+/*****************table********/
+ h1 {
+ 	color: red;
+ 	font-size: 100px;
+ 	font-style:italic;
+ 	text-shadow: 0 0 20px white;
+    font-family: fantasy;
+
+ }
+ .bouton {
+ 	text-align: center;
+ 	padding-top: 80px;
+ 	padding-bottom: 50px;
+
+ }
+ b {
+ 	font-style: oblique;
+ 	font-size: 80px;
+ 	color: red;
+ 	text-shadow: 0 0 20px ;
+
+ }
+ .table-ser {
+ 	padding-top: 20px;
+ 	padding-left: 30px;
+ 	float: left;
+ 	padding-bottom: 40px;
+ }
+ td {
+ 	font-size: 30px;
+ 	font-family: fantasy;
+    width: 50%;
+ }
+ #tableft {
+ 	float: left;
+
+ }
+ #tabright {
+ 	width: 50%;
+ 	float: right; 
+ 	position: auto;  
+ }
+/******************gallery***********************/
+.gallery {
+  background-image: url(img/sans.gif);
+  float:left; 
+  padding-top:  10px;
+  padding-left: 40%;
+  width: 100%;
+  
+ 
+}
+/************mainbar*******/
+.columns {
+  float: left;
+  width: 30%;
+  padding: 8px;
+ }
+.column {
+	float: right;
+	width: 30%;
+	
+}
+
+/* Add hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
